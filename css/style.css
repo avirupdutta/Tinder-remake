@@ -54,9 +54,10 @@
 
 .card{
    border: 0px solid red;
-   height: 50vh;
+   height: 100vh;
    background: #333;
    border-radius: 6px;
+   width: 100%;
 }
 
 .btn{
