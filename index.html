@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     
+     <!--Snipppet for live reload-->
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+     <!--Font Awesome CDN-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+     
+    <!--Modded Styles-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Tinder Remake</title>
+  </head>
+  <body>
+        <div class="card" id="card-id">
+           <div class="profile-img">
+              <img class="card-img-top" alt="Profile-image" id="profImg">
+           </div>
+          
+          <div class="card-body">
+            <h2 class="card-title text-left" id="nameAge"></h2>
+            <span class="card-title text-right" id="distance">2 KM</span>
+            <p class="card-text" id="cv"></p>
+          </div>
+          <div class="card-footer">
+<!--             <small class="text-muted">Last updated 3 mins ago</small> -->
+             <button type="button" class="btn btn-danger" id="del"><i class="fas fa-times"></i></button>
+                <button type="button" class="btn btn-primary" id="supLike"><i class="fas fa-bolt"></i></button>
+                <button type="button" class="btn btn-success" id="love"><i class="fas fa-heart"></i></button>
+             <button type="button" class="btn btn-warning" id="next"><i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+        
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+    <!--Original Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+     <!-- Optional JavaScript -->
+     <script src="js/script.js"></script>
+     <script src="js/jqery.js"></script>
+  </body>
+</html>
