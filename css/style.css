@@ -74,9 +74,9 @@
  .card-footer{
     display: flex;
     justify-content: space-evenly;
-    padding: 5%;
+    padding: 0%;
     overflow: hidden;
-    height: 20%;
+    height: 25%;
  }
 
 }
